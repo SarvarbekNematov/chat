@@ -19,13 +19,13 @@ const Login = () => {
     // ...
   })
   .catch((error) => {
-    <div>{error}</div>
+    alert("To'g'ri email va password kirgizing!")
   });
   };
   return (
     <div className="flex justify-center items-center bg-blue-400 h-[100vh]">
       <div className=" bg-white rounded-2xl py-[20px] px-[50px] w-[400px]">
-        <span className="block text-center text-[24px]">Lama Chat</span>
+        <span className="block text-center text-[24px]">Chat</span>
         <span className="block text-center text-[17px] mt-[10px] opacity-50">
           Login
         </span>
@@ -47,12 +47,12 @@ const Login = () => {
             Sign in
           </button>
         </form>
-        <p className="flex justify-center gap-[5px] text-[13px] mt-[10px]">
+        {/* <p className="flex justify-center gap-[5px] text-[13px] mt-[10px]">
           You don't have an account?{" "}
           <Link className="text-blue-400 border-b-2" to="/register">
             Register
           </Link>
-        </p>
+        </p> */}
       </div>
     </div>
   );
