@@ -164,10 +164,10 @@ const MessageDetail = () => {
               </button>
             </div>
           </div>
-          <div className="flex flex-col  justify-between h-[95vh] bg-[#0000000b] relative">
+          <div className="flex flex-col  justify-between h-[95vh] bg-[#78C5E3] relative">
             <div
               ref={containerRef}
-              className="flex flex-col-reverse overflow-y-auto overflow-x-hidden px-3 py-2 bg-[#78C5E3]"
+              className="flex flex-col-reverse overflow-y-auto overflow-x-hidden px-3 py-2 "
             >
               {Object.entries(groupedMessages)
                 .reverse()
